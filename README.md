@@ -21,7 +21,7 @@ Simple API to validate a password that must meet the following requirements:
 
 ## How to Run
 <ol>
-  <li>Install dependencies using <pre>npm install</pre></li>
+  <li>Install dependencies using: <pre>npm install</pre></li>
   <li>Start the server using the following command on your terminal: <pre>node src/app.js</pre></li>
 </ol>
 The application will be available by default at <code>http://localhost:3000/validate-password</code>
