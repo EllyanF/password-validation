@@ -4,7 +4,6 @@ const validatePassword = require('./services/passwordValidator');
 const port = process.env.PORT || 3000;
 
 app.post('/validate-password', validatePassword ,(req, res) => {
-
     return res.status(204).json();
 });
 
